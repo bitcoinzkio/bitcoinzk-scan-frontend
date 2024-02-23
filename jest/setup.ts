@@ -11,7 +11,7 @@ Object.assign(global, { TextDecoder, TextEncoder });
 
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
-  value: jest.fn().mockImplementation(query => ({
+  value: jest.fn().mockImplementation((query) => ({
     matches: false,
     media: query,
     onchange: null,
@@ -35,7 +35,13 @@ global.console = {
   ...console,
   error: (...args) => {
     // silence some irrelevant errors
-    if (args.some((arg) => typeof arg === 'string' && arg.includes('Using kebab-case for css properties'))) {
+    if (
+      args.some(
+        (arg) =>
+          typeof arg === 'string' &&
+          arg.includes('Using kebab-case for css properties'),
+      )
+    ) {
       return;
     }
     consoleError(...args);

@@ -131,10 +131,10 @@ const Footer = () => {
       return (
         <Box gridArea={gridArea}>
           <Link fontSize="xs" href="https://ethda.io/">
-            ethda.io
+            BitcoinZK.io
           </Link>
           <Text mt={3} fontSize="xs">
-            EthDA is a scalable Ethereum layer2 Data Availability solution.
+            BitcoinZK is a scalable Ethereum layer2 solution.
           </Text>
         </Box>
       );
