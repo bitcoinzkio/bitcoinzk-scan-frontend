@@ -138,7 +138,7 @@ const ContractVerificationFieldMethod = ({
     <>
       <div>
         <chakra.span fontWeight={ 500 } fontSize="lg" fontFamily="heading">
-          Currently, EthDA supports { methods.length } contract verification
+          Currently, BitcoinZK supports { methods.length } contract verification
           methods
         </chakra.span>
         <Popover
@@ -172,7 +172,7 @@ const ContractVerificationFieldMethod = ({
               <PopoverBody color="white">
                 <DarkMode>
                   <span>
-                    Currently, EthDA supports { methods.length } methods:
+                    Currently, BitcoinZK supports { methods.length } methods:
                   </span>
                   <OrderedList>
                     { methods.map(renderPopoverListItem) }

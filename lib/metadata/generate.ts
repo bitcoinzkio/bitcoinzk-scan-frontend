@@ -36,7 +36,7 @@ export default function generate<R extends Route>(
   const pageOgType = getPageOgType(route.pathname);
 
   return {
-    title: 'EthDA explorer',
+    title: 'BitcoinZK explorer',
     description,
     opengraph: {
       title: title,
