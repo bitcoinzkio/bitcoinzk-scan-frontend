@@ -134,7 +134,7 @@ const Footer = () => {
             BitcoinZK.io
           </Link>
           <Text mt={3} fontSize="xs">
-            BitcoinZK is a scalable Ethereum layer2 solution.
+            BitcoinZK is a ZK layer2 for scaling Bitcoin.
           </Text>
         </Box>
       );
