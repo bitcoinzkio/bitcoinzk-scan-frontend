@@ -7,7 +7,7 @@ on:
 
 jobs:
     build:
-        if: github.repository == 'crustio/ethda-scan-frontend'
+        if: github.repository == 'bitcoinzkio/bitcoinzk-scan-frontend'
         runs-on: ubuntu-latest
         steps:
             - name: Checkout

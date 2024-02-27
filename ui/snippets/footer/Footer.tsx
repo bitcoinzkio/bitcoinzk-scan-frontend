@@ -130,7 +130,7 @@ const Footer = () => {
     (gridArea?: GridProps["gridArea"]) => {
       return (
         <Box gridArea={gridArea}>
-          <Link fontSize="xs" href="https://ethda.io/">
+          <Link fontSize="xs" href="https://bitcoinzk.io">
             BitcoinZK.io
           </Link>
           <Text mt={3} fontSize="xs">
